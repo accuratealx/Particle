@@ -1,0 +1,483 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="11"/>
+    <BuildModes Count="1" Active="Debug">
+      <Item1 Name="Release">
+        <CompilerOptions>
+          <Version Value="11"/>
+          <PathDelim Value="\"/>
+          <Target>
+            <Filename Value="..\..\Bin\Particle"/>
+          </Target>
+          <SearchPaths>
+            <IncludeFiles Value="$(ProjOutDir)"/>
+            <OtherUnitFiles Value="MainFrm;..\..\Unit;..;..\..\Unit\SGE;..\..\Unit\SimpleTools;PartFailEditorFrm;ChastFrm;MissileFrm;MissileEditorFrm;PartEditorFrm"/>
+            <UnitOutputDirectory Value="..\..\~Tmp\$(TargetCPU)-$(TargetOS)"/>
+          </SearchPaths>
+          <CodeGeneration>
+            <SmartLinkUnit Value="True"/>
+            <Optimizations>
+              <OptimizationLevel Value="3"/>
+            </Optimizations>
+          </CodeGeneration>
+          <Linking>
+            <Debugging>
+              <GenerateDebugInfo Value="False"/>
+            </Debugging>
+            <LinkSmart Value="True"/>
+            <Options>
+              <Win32>
+                <GraphicApplication Value="True"/>
+              </Win32>
+            </Options>
+          </Linking>
+        </CompilerOptions>
+      </Item1>
+    </BuildModes>
+    <Units Count="39">
+      <Unit0>
+        <Filename Value="Particle.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <CursorPos X="12" Y="12"/>
+        <UsageCount Value="135"/>
+        <Loaded Value="True"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="MainFrm\MainUnit.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="MainFrm"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="1"/>
+        <TopLine Value="222"/>
+        <CursorPos X="3" Y="231"/>
+        <UsageCount Value="135"/>
+        <Bookmarks Count="2">
+          <Item0 Y="555" ID="2"/>
+          <Item1 X="8" Y="394" ID="1"/>
+        </Bookmarks>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="..\..\Unit\sgeSQLite.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="13"/>
+        <CursorPos Y="159"/>
+        <UsageCount Value="135"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="..\..\Unit\sgeTableRow.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="36" Y="11"/>
+        <UsageCount Value="121"/>
+      </Unit3>
+      <Unit4>
+        <Filename Value="..\..\Unit\sgeTable.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="11"/>
+        <CursorPos X="67" Y="31"/>
+        <UsageCount Value="120"/>
+      </Unit4>
+      <Unit5>
+        <Filename Value="..\..\Unit\sgeTableRowList.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="10"/>
+        <CursorPos X="15" Y="31"/>
+        <UsageCount Value="120"/>
+      </Unit5>
+      <Unit6>
+        <Filename Value="..\ParticleApp.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="38"/>
+        <CursorPos X="15" Y="48"/>
+        <UsageCount Value="111"/>
+      </Unit6>
+      <Unit7>
+        <Filename Value="MissileFrm\MissileUnit.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="MissileFrm"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="78"/>
+        <CursorPos X="3" Y="85"/>
+        <UsageCount Value="109"/>
+        <Bookmarks Count="1">
+          <Item0 Y="359" ID="3"/>
+        </Bookmarks>
+      </Unit7>
+      <Unit8>
+        <Filename Value="PartEditorFrm\PartEditorUnit.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="PartEditorFrm"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="29"/>
+        <CursorPos X="10" Y="61"/>
+        <UsageCount Value="80"/>
+      </Unit8>
+      <Unit9>
+        <Filename Value="..\..\Unit\sqlite3.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="519"/>
+        <CursorPos X="45" Y="539"/>
+        <UsageCount Value="10"/>
+      </Unit9>
+      <Unit10>
+        <Filename Value="..\..\Unit\sqlite3db.pas"/>
+        <UnitName Value="SQLite3db"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="354"/>
+        <CursorPos X="25" Y="369"/>
+        <UsageCount Value="10"/>
+        <Bookmarks Count="1">
+          <Item0 X="20" Y="243" ID="2"/>
+        </Bookmarks>
+      </Unit10>
+      <Unit11>
+        <Filename Value="..\..\Unit\sqlite3.pas"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="75" Y="811"/>
+        <UsageCount Value="9"/>
+      </Unit11>
+      <Unit12>
+        <Filename Value="..\..\Unit\sgeTypes.pas"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos Y="23"/>
+        <UsageCount Value="10"/>
+      </Unit12>
+      <Unit13>
+        <Filename Value="..\..\Unit\sgeSQLiteTable.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="34"/>
+        <CursorPos X="44" Y="49"/>
+        <UsageCount Value="8"/>
+      </Unit13>
+      <Unit14>
+        <Filename Value="C:\lazarus\fpc\3.0.4\source\rtl\objpas\classes\classesh.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="633"/>
+        <CursorPos X="14" Y="652"/>
+        <UsageCount Value="9"/>
+      </Unit14>
+      <Unit15>
+        <Filename Value="C:\lazarus\fpc\3.0.4\source\rtl\objpas\classes\stringl.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="177"/>
+        <CursorPos X="3" Y="192"/>
+        <UsageCount Value="9"/>
+      </Unit15>
+      <Unit16>
+        <Filename Value="D:\!Alx\!Projects\SimpleGameEngine 1.20\Source\sgeResourceList.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="49"/>
+        <CursorPos X="15" Y="67"/>
+        <UsageCount Value="10"/>
+      </Unit16>
+      <Unit17>
+        <Filename Value="D:\!Alx\!Projects\SimpleGameEngine 1.20\Source\sgeGraphicFrameList.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="169"/>
+        <CursorPos X="40" Y="171"/>
+        <UsageCount Value="10"/>
+      </Unit17>
+      <Unit18>
+        <Filename Value="C:\lazarus\fpc\3.0.4\source\rtl\inc\objpash.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="183"/>
+        <CursorPos X="23" Y="194"/>
+        <UsageCount Value="10"/>
+      </Unit18>
+      <Unit19>
+        <Filename Value="C:\lazarus\fpc\3.0.4\source\rtl\win\dynlibs.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="7"/>
+        <CursorPos X="3" Y="30"/>
+        <UsageCount Value="10"/>
+      </Unit19>
+      <Unit20>
+        <Filename Value="C:\lazarus\lcl\grids.pas"/>
+        <UnitName Value="Grids"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="119"/>
+        <CursorPos X="3" Y="135"/>
+        <UsageCount Value="10"/>
+      </Unit20>
+      <Unit21>
+        <Filename Value="..\..\Unit\SGE\sgeParameterList.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="285"/>
+        <CursorPos Y="307"/>
+        <UsageCount Value="1"/>
+      </Unit21>
+      <Unit22>
+        <Filename Value="C:\lazarus\lcl\forms.pp"/>
+        <UnitName Value="Forms"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="1464"/>
+        <CursorPos X="15" Y="1480"/>
+        <UsageCount Value="10"/>
+      </Unit22>
+      <Unit23>
+        <Filename Value="C:\lazarus\lcl\include\application.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="2214"/>
+        <CursorPos X="3" Y="2231"/>
+        <UsageCount Value="10"/>
+      </Unit23>
+      <Unit24>
+        <Filename Value="..\..\Unit\SimpleTools\SimpleParameters.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="189"/>
+        <CursorPos X="11" Y="208"/>
+        <UsageCount Value="1"/>
+        <Bookmarks Count="1">
+          <Item0 X="4" Y="204" ID="1"/>
+        </Bookmarks>
+      </Unit24>
+      <Unit25>
+        <Filename Value="..\..\Unit\Bak\sqlite3db.pas"/>
+        <UnitName Value="SQLite3db"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="154"/>
+        <CursorPos X="24" Y="156"/>
+        <UsageCount Value="1"/>
+      </Unit25>
+      <Unit26>
+        <Filename Value="C:\lazarus\components\lazutils\lazutf8.pas"/>
+        <UnitName Value="LazUTF8"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="2391"/>
+        <CursorPos X="12" Y="2393"/>
+        <UsageCount Value="1"/>
+      </Unit26>
+      <Unit27>
+        <Filename Value="C:\lazarus\components\lazutils\dynamicarray.pas"/>
+        <UnitName Value="DynamicArray"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="43"/>
+        <CursorPos Y="64"/>
+        <UsageCount Value="2"/>
+      </Unit27>
+      <Unit28>
+        <Filename Value="C:\lazarus\lcl\include\statusbar.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="3"/>
+        <CursorPos Y="36"/>
+        <UsageCount Value="2"/>
+      </Unit28>
+      <Unit29>
+        <Filename Value="C:\lazarus\lcl\comctrls.pp"/>
+        <UnitName Value="ComCtrls"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="2091"/>
+        <CursorPos X="3" Y="2045"/>
+        <UsageCount Value="3"/>
+      </Unit29>
+      <Unit30>
+        <Filename Value="ChastFrm\ChastUnit.pas"/>
+        <ComponentName Value="ChastFrm"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="34"/>
+        <CursorPos X="8" Y="36"/>
+        <UsageCount Value="32"/>
+      </Unit30>
+      <Unit31>
+        <Filename Value="C:\lazarus\lcl\include\control.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="2897"/>
+        <CursorPos Y="2917"/>
+        <UsageCount Value="4"/>
+      </Unit31>
+      <Unit32>
+        <Filename Value="PartFailEditorFrm\PartFailEditorUnit.pas"/>
+        <ComponentName Value="PartFailEditorFrm"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="10"/>
+        <CursorPos X="5" Y="66"/>
+        <UsageCount Value="17"/>
+      </Unit32>
+      <Unit33>
+        <Filename Value="C:\lazarus\lcl\stdctrls.pp"/>
+        <UnitName Value="StdCtrls"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="292"/>
+        <CursorPos X="15" Y="309"/>
+        <UsageCount Value="6"/>
+      </Unit33>
+      <Unit34>
+        <Filename Value="C:\lazarus\lcl\include\customcombobox.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="1095"/>
+        <CursorPos X="3" Y="1103"/>
+        <UsageCount Value="6"/>
+      </Unit34>
+      <Unit35>
+        <Filename Value="MissileEditorFrm\MissileEditorUnit.pas"/>
+        <ComponentName Value="MissileEditorFrm"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="26"/>
+        <CursorPos X="10" Y="43"/>
+        <UsageCount Value="10"/>
+      </Unit35>
+      <Unit36>
+        <Filename Value="C:\lazarus\lcl\imglist.pp"/>
+        <UnitName Value="ImgList"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="93"/>
+        <CursorPos X="39" Y="111"/>
+        <UsageCount Value="10"/>
+      </Unit36>
+      <Unit37>
+        <Filename Value="C:\lazarus\components\lazutils\graphtype.pp"/>
+        <UnitName Value="GraphType"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="32"/>
+        <CursorPos X="3" Y="48"/>
+        <UsageCount Value="10"/>
+      </Unit37>
+      <Unit38>
+        <Filename Value="C:\lazarus\lcl\graphics.pp"/>
+        <UnitName Value="Graphics"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="235"/>
+        <CursorPos X="3" Y="251"/>
+        <UsageCount Value="10"/>
+      </Unit38>
+    </Units>
+    <JumpHistory Count="28" HistoryIndex="27">
+      <Position1>
+        <Filename Value="MainFrm\MainUnit.pas"/>
+        <Caret Line="162" TopLine="146"/>
+      </Position1>
+      <Position2>
+        <Filename Value="MainFrm\MainUnit.pas"/>
+        <Caret Line="161" Column="14" TopLine="146"/>
+      </Position2>
+      <Position3>
+        <Filename Value="MainFrm\MainUnit.pas"/>
+        <Caret Line="369" Column="8" TopLine="351"/>
+      </Position3>
+      <Position4>
+        <Filename Value="MainFrm\MainUnit.pas"/>
+        <Caret Line="426" Column="17" TopLine="410"/>
+      </Position4>
+      <Position5>
+        <Filename Value="MainFrm\MainUnit.pas"/>
+        <Caret Line="65" Column="20" TopLine="44"/>
+      </Position5>
+      <Position6>
+        <Filename Value="MainFrm\MainUnit.pas"/>
+        <Caret Line="526" Column="27" TopLine="507"/>
+      </Position6>
+      <Position7>
+        <Filename Value="MainFrm\MainUnit.pas"/>
+        <Caret Line="241" Column="21" TopLine="221"/>
+      </Position7>
+      <Position8>
+        <Filename Value="MainFrm\MainUnit.pas"/>
+        <Caret Line="522" Column="27" TopLine="487"/>
+      </Position8>
+      <Position9>
+        <Filename Value="MainFrm\MainUnit.pas"/>
+        <Caret Line="513" Column="28" TopLine="502"/>
+      </Position9>
+      <Position10>
+        <Filename Value="MainFrm\MainUnit.pas"/>
+        <Caret Line="369" Column="9" TopLine="351"/>
+      </Position10>
+      <Position11>
+        <Filename Value="MainFrm\MainUnit.pas"/>
+        <Caret Line="86" Column="20" TopLine="71"/>
+      </Position11>
+      <Position12>
+        <Filename Value="MainFrm\MainUnit.pas"/>
+        <Caret Line="370" Column="45" TopLine="354"/>
+      </Position12>
+      <Position13>
+        <Filename Value="MainFrm\MainUnit.pas"/>
+        <Caret Line="369" Column="31" TopLine="347"/>
+      </Position13>
+      <Position14>
+        <Filename Value="MainFrm\MainUnit.pas"/>
+        <Caret Line="212" Column="13" TopLine="195"/>
+      </Position14>
+      <Position15>
+        <Filename Value="MainFrm\MainUnit.pas"/>
+        <Caret Line="60" Column="15" TopLine="44"/>
+      </Position15>
+      <Position16>
+        <Filename Value="MainFrm\MainUnit.pas"/>
+        <Caret Line="423" Column="18" TopLine="409"/>
+      </Position16>
+      <Position17>
+        <Filename Value="MainFrm\MainUnit.pas"/>
+        <Caret Line="382" Column="14" TopLine="362"/>
+      </Position17>
+      <Position18>
+        <Filename Value="MainFrm\MainUnit.pas"/>
+        <Caret Line="388" Column="10" TopLine="362"/>
+      </Position18>
+      <Position19>
+        <Filename Value="MainFrm\MainUnit.pas"/>
+        <Caret Line="396" Column="110" TopLine="372"/>
+      </Position19>
+      <Position20>
+        <Filename Value="MainFrm\MainUnit.pas"/>
+        <Caret Line="391" Column="72" TopLine="368"/>
+      </Position20>
+      <Position21>
+        <Filename Value="MainFrm\MainUnit.pas"/>
+        <Caret Line="394" Column="20" TopLine="375"/>
+      </Position21>
+      <Position22>
+        <Filename Value="MainFrm\MainUnit.pas"/>
+        <Caret Line="394" Column="20" TopLine="335"/>
+      </Position22>
+      <Position23>
+        <Filename Value="MainFrm\MainUnit.pas"/>
+        <Caret Line="357" Column="47" TopLine="347"/>
+      </Position23>
+      <Position24>
+        <Filename Value="MainFrm\MainUnit.pas"/>
+        <Caret Line="387" Column="38" TopLine="377"/>
+      </Position24>
+      <Position25>
+        <Filename Value="MainFrm\MainUnit.pas"/>
+        <Caret Line="272" Column="12" TopLine="267"/>
+      </Position25>
+      <Position26>
+        <Filename Value="MainFrm\MainUnit.pas"/>
+        <Caret Line="187" Column="13" TopLine="183"/>
+      </Position26>
+      <Position27>
+        <Filename Value="MainFrm\MainUnit.pas"/>
+        <Caret Line="187" Column="13" TopLine="183"/>
+      </Position27>
+      <Position28>
+        <Filename Value="MainFrm\MainUnit.pas"/>
+        <Caret Line="231" Column="3" TopLine="222"/>
+      </Position28>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes Count="0" ActiveMode=""/>
+    </RunParams>
+  </ProjectSession>
+</CONFIG>
